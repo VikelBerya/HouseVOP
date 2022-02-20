@@ -1,0 +1,333 @@
+p {
+    margin: 0;
+}
+
+.nav__item {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.nav__item:hover {
+    color: #D4C17F;
+}
+
+body {
+    background-color: #242B33;
+    background-image: url("/assets/img/body__background.png");
+    background-repeat: no-repeat;
+linear-gradient(180 deg, #242B33 11.98 %, rgba(45, 52, 60, 0.38) 51.04 %, #242B33 92.19 %), url("/assets/img/body__background.png");
+}
+
+.logo__item {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.header__items {
+    display: flex;
+    flex-flow: row;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-flow: column;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header__text {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #D4C17F;
+    width: 556px;
+    height: 109px;
+    margin: 209px auto 0;
+}
+
+.mouse__icon {
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__info {
+    display: flex;
+    flex-flow: row;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.header__info__item {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.map__icon, .phone__icon {
+    margin-right: 16px;
+}
+
+.header__block {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 582px;
+    max-height: 470px;
+}
+
+.header__info__map, .header__info__phone {
+    display: flex;
+}
+
+.phone {
+    margin-right: 53px;
+}
+
+.main__info__fact {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 53px;
+}
+
+.main__info__block {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-right: 70px;
+
+}
+
+.main__info {
+    display: flex;
+    flex-flow: row;
+    margin-top: 194px;
+    justify-content: center;
+}
+
+#II {
+    position: relative;
+}
+
+.II {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 533px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+    position: absolute;
+    left: 128px;
+    top: -160px;
+}
+
+.main__apartments {
+    max-height: 806px;
+    max-width: 1100px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__apartments__logo {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
+.loft__icon {
+    background: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0) 0.01%, #242B33 100%), #D4C17F;
+    margin-bottom: 30px;
+
+}
+
+.main__apartments__loft {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: 80px;
+}
+
+.main__apartments__relative {
+    position: relative;
+}
+
+.main__apartments__photo {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    max-height: 806px;
+    max-width: 1100px;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.III {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 533px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+    position: absolute;
+    bottom: 13px;
+    left: -226px;
+}
+
+#III {
+    position: relative;
+}
+
+.data {
+    background-image: url("/assets/img/background2.png");
+    height: 560px;
+}
+
+.data__header {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+
+
+}
+
+.data__description {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.data__comment {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #E7E7E7;
+    margin-top: 46px;
+}
+
+.data__info {
+    margin-top: 180px;
+
+}
+
+.data__display {
+    max-width: 1100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.user__input {
+    border: none;
+    width: 255px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.user__input::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 27px;
+    color: #BEBEBE;
+    text-align: center;
+    padding: 0;
+}
+
+.data__button {
+    border: none;
+    background: #D4C17F;
+    width: 255px;
+    height: 50px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+
+.data__input {
+    display: flex;
+    max-width: 540px;
+    max-height: 135px;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 245px;
+}
+
+.IV {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 400px;
+    line-height: 533px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+    position: absolute;
+    top: 71px;
+    left: 1014px;
+
+}
+
+.video__item {
+    z-index: 1;
+    position: absolute;
+    top: 275px;
+    left: 617px;
+}
+
+.video__photo {
+    z-index: 0;
+    max-width: 720px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video__display {
+    position: relative;
+}
